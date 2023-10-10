@@ -1,0 +1,17 @@
+package javaapplication99;
+import java.util.Scanner;
+public class Main {
+	public static void main(String[] args) {
+		Scanner input = new Scanner (System.in);
+		System.out.print("Name :");
+		String a = input.nextLine();
+	   System.out.print("Kelas :");
+	   String b = input .nextLine();
+	   System.out.print("NIM :");
+	   String c = input.nextLine();
+	   
+	   System.out.print("Biodata saya");
+	   System.out.print("Nama : "+" "+(a));
+	   System.out.print("kelas :"+" "+(b));
+	   System.out.print("NIM :" + (c));
+	}
